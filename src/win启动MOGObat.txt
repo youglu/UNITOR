@@ -1,0 +1,4 @@
+echo 路径：%~dp0 
+cd %~dp0 
+del  /F/Q/S %~dp0\db\*
+mongod --dbpath=D:\HR\unitor\mongodb\bin\db  --storageEngine=mmapv1
